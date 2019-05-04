@@ -13,7 +13,7 @@ public class Neurone {
     }
 
     public double getBiais() { return this.mBiais; }
-    public double getPoids() { return this.mPoids; }
+    public double getPoids() { return this.somme(); }
 
     public void setBiais(double biais) { this.mBiais = biais; }
     public void setPoids(double poids) { this.mPoids = poids; }
